@@ -57,11 +57,11 @@ public class MainActivity extends AppCompatActivity {
         productList.add(new Producto("Samsung Galaxy S21", "Teléfonos", 899.99, 4.2f, "https://m.media-amazon.com/images/I/71cb4T2yAeL._AC_SX679_.jpg"));
         productList.add(new Producto("MacBook Pro", "Laptops", 1499.99, 4.8f, "https://m.media-amazon.com/images/I/61aUBxqc5PL._SL1500_.jpg"));
         productList.add(new Producto("AirPods Pro", "Audífonos", 249.99, 4.3f, "https://m.media-amazon.com/images/I/61SUj2aKoEL._SL1500_.jpg"));
-        productList.add(new Producto("Kindle Paperwhite", "Lectores eBook", 139.99f, 4.7f, "https://m.media-amazon.com/images/I/71FWKtSIYUL._AC_SL1500_.jpg"));
-        productList.add(new Producto("Echo Dot (4ta Gen)", "Asistentes", 49.99f, 4.6f, "https://m.media-amazon.com/images/I/71Q9d6N7xkL._SL1500_.jpg"));
-        productList.add(new Producto("Fire TV Stick 4K", "Streaming", 39.99f, 4.5f, "https://m.media-amazon.com/images/I/51TjJOTfslL._SL1500_.jpg"));
-        productList.add(new Producto("Logitech MX Master 3", "Accesorios PC", 99.99f, 4.8f, "https://m.media-amazon.com/images/I/614w3LuZTYL._SL1500_.jpg"));
-        productList.add(new Producto("Sony WH-1000XM4", "Audífonos", 348.00f, 4.8f, "https://m.media-amazon.com/images/I/71o8Q5XJS5L._SL1500_.jpg"));
+        productList.add(new Producto("Kindle Paperwhite", "Lectores eBook", 139.99, 4.7f, "https://m.media-amazon.com/images/I/71FWKtSIYUL._AC_SL1500_.jpg"));
+        productList.add(new Producto("Echo Dot (4ta Gen)", "Asistentes", 49.99, 4.6f, "https://m.media-amazon.com/images/I/71Q9d6N7xkL._SL1500_.jpg"));
+        productList.add(new Producto("Fire TV Stick 4K", "Streaming", 39.99, 4.5f, "https://m.media-amazon.com/images/I/51TjJOTfslL._SL1500_.jpg"));
+        productList.add(new Producto("Logitech MX Master 3", "Accesorios PC", 99.99, 4.8f, "https://m.media-amazon.com/images/I/614w3LuZTYL._SL1500_.jpg"));
+        productList.add(new Producto("Sony WH-1000XM4", "Audífonos", 348.00, 4.8f, "https://m.media-amazon.com/images/I/71o8Q5XJS5L._SL1500_.jpg"));
 
 
         // Configurar el adaptador
