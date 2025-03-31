@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/topControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/searchBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buscar productos"
+            android:imeOptions="actionDone"/>
+
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/productListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topControls"
+        android:layout_above="@+id/bottomSpace"
+        android:scrollbars="vertical"
+        android:fastScrollEnabled="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"/>
+
+    <View
+        android:id="@+id/bottomSpace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

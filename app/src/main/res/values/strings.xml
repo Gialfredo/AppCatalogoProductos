@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppCatalogoProductos</string>
+    <string name="buscar_productos">Buscar productos...</string>
+    <string name="descripcion_imagen">Descripcion imagen</string>
+
+
+</resources>
